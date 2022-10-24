@@ -51,7 +51,6 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 
-import BTC_ETH
 import altcoins
 from apscheduler.schedulers.background import BackgroundScheduler
 from waitress import serve
