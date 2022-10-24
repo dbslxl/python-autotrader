@@ -45,7 +45,7 @@ from sklearn.metrics import mean_squared_error
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 from sqlalchemy import true, types 
 from sqlalchemy import Table, Column, Integer, Numeric, String, ForeignKey
-import talib as ta
+
 from sqlalchemy import inspect, create_engine
 import pandas as pd
 import numpy as np
