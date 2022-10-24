@@ -52,7 +52,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 from apscheduler.schedulers.background import BackgroundScheduler
-from waitress import serve
+
 def OBV(price, volume):
     obv = pd.Series(index=price.index)
     obv.iloc[0] = volume.iloc[0]
